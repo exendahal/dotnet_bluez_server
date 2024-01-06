@@ -1,0 +1,42 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="bletest.MainWindow"      
+        Title="EXPLORE BLE PERIPHERAL">      
+       <StackPanel>
+        <StackPanel Margin="16,0">
+        <TextBlock Margin="10" FontWeight="Bold" Text="BLE Peripheral Operations"/>     
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+        <Button Content="START" Margin="10" Click="OnStartBle"/>      
+        <Button Content="STOP" Margin="10" Click="OnStopBle"/>
+    </StackPanel>   
+    <TextBlock Margin="10" FontWeight="Bold" Text="Connected Central Info"/>   
+     <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="10">  
+         <TextBlock Name="clientName" HorizontalAlignment="Center" Text="Connected Central: N/A"/>  
+     </StackPanel>       
+    <TextBlock Margin="10" FontWeight="Bold" Text="Paired Bluetooth List"/>  
+     <DataGrid Name="dataGrid" SelectionMode="Single">
+        <DataGrid.Columns>      
+        <DataGridTextColumn Header="S.N." Binding="{Binding Sn}" Width="Auto"/>     
+        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="Auto"/>
+         <DataGridTextColumn Header="Alias" Binding="{Binding Alias}" Width="Auto"/>
+        <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="Auto"/>   
+        <DataGridTextColumn Header="Paired" Binding="{Binding Paired}" Width="Auto"/>  
+        <DataGridTextColumn Header="Trusted" Binding="{Binding Trusted}" Width="Auto"/>  
+        <DataGridTextColumn Header="Modalias" Binding="{Binding Modalias}" Width="Auto"/>              
+        <DataGridTemplateColumn Width="Auto" Header="Action">
+            <DataGridTemplateColumn.CellTemplate>
+                <DataTemplate>
+                    <Button Content="REMOVE" Margin="10"/>
+                </DataTemplate>
+            </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+        <DataGridTextColumn Header="UUIDs" Binding="{Binding ConcatenatedUUIDs}" Width="Auto"/> 
+        </DataGrid.Columns>
+    </DataGrid>
+    </StackPanel>
+         </StackPanel>   
+</Window>
+
