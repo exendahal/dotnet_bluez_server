@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj": {}
+  },
+  "projects": {
+    "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj",
+        "projectName": "ble-server-linux",
+        "projectPath": "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj",
+        "packagesPath": "/home/bajratech/.nuget/packages/",
+        "outputPath": "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bajratech/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj": {
+                "projectPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.10.21, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.10.21, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[0.10.21, )"
+            },
+            "Tmds.LibC": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "XamlNameReferenceGenerator": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj": {
+      "version": "0.1.0-snapshot",
+      "restore": {
+        "projectUniqueName": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj",
+        "projectName": "DotnetBleServer",
+        "projectPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj",
+        "packagesPath": "/home/bajratech/.nuget/packages/",
+        "outputPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bajratech/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Tmds.DBus": {
+              "target": "Package",
+              "version": "[0.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

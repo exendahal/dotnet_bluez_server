@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = dotnetbleserver
+build_property.ProjectDir = /home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/
