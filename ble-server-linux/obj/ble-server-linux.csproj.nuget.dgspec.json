@@ -1,33 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj": {}
+    "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\ble-server-linux\\ble-server-linux.csproj": {}
   },
   "projects": {
-    "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj": {
+    "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\ble-server-linux\\ble-server-linux.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj",
+        "projectUniqueName": "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\ble-server-linux\\ble-server-linux.csproj",
         "projectName": "ble-server-linux",
-        "projectPath": "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj",
-        "packagesPath": "/home/bajratech/.nuget/packages/",
-        "outputPath": "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/obj/",
+        "projectPath": "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\ble-server-linux\\ble-server-linux.csproj",
+        "packagesPath": "C:\\Users\\exend\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\ble-server-linux\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/bajratech/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\exend\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\exend\\OneDrive\\Desktop\\Workspace\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj": {
-                "projectPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj"
+              "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\dotnet_ble_server\\dotnetbleserver.csproj": {
+                "projectPath": "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\dotnet_ble_server\\dotnetbleserver.csproj"
               }
             }
           }
@@ -79,26 +87,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj": {
+    "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\dotnet_ble_server\\dotnetbleserver.csproj": {
       "version": "0.1.0-snapshot",
       "restore": {
-        "projectUniqueName": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj",
+        "projectUniqueName": "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\dotnet_ble_server\\dotnetbleserver.csproj",
         "projectName": "DotnetBleServer",
-        "projectPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj",
-        "packagesPath": "/home/bajratech/.nuget/packages/",
-        "outputPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/",
+        "projectPath": "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\dotnet_ble_server\\dotnetbleserver.csproj",
+        "packagesPath": "C:\\Users\\exend\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\exend\\Source\\Repos\\dotnet_ble_server\\dotnet_ble_server\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/bajratech/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\exend\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\exend\\OneDrive\\Desktop\\Workspace\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -139,7 +155,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -12,10 +12,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ble-server-linux
-build_property.ProjectDir = /home/bajratech/Desktop/dotnetbleserver/ble-server-linux/
+build_property.ProjectDir = C:\Users\exend\Source\Repos\dotnet_ble_server\ble-server-linux\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/App.axaml]
+[C:/Users/exend/Source/Repos/dotnet_ble_server/ble-server-linux/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/MainWindow.axaml]
+[C:/Users/exend/Source/Repos/dotnet_ble_server/ble-server-linux/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
