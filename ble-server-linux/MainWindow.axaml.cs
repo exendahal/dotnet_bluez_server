@@ -17,14 +17,19 @@ public partial class MainWindow : Window
 {
     private ServerContext _CurrentServerContext { get; set; } = new ServerContext();
     ObservableCollection<DeviceModel> pairedList = new ObservableCollection<DeviceModel>();
+    //public ICommand RemoveDeviceCommand { get; }
     public MainWindow()
     {
         InitializeComponent();
+        //RemoveDeviceCommand = new Command<DeviceModel>(OnRemoveClick);
         _CurrentServerContext.Connect();
         _CurrentServerContext.Connection.StateChanged += StateChanged;
         GetPairedList();
     }
+    private void OnRemoveClick(DeviceModel device)
+    {
 
+    }
     private async void GetPairedList()
     {
         var devices = await DeviceManager.GetDeviceListAsync(_CurrentServerContext);
@@ -38,9 +43,16 @@ public partial class MainWindow : Window
             var paired = await device.GetPairedAsync();
             var trusted = await device.GetTrustedAsync();
             var uuids = await device.GetUUIDsAsync();
-            var modalias = await device.GetModaliasAsync();         
-            pairedList.Add(
-            new DeviceModel()
+            string modalias = string.Empty;
+            try
+            {
+                modalias = await device.GetModaliasAsync();
+            }
+            catch
+            {
+
+            }             
+            pairedList.Add(new DeviceModel()
             {
                 Sn = serialNumber,
                 Name = deviceName,

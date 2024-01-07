@@ -28,8 +28,8 @@
         <DataGridTextColumn Header="Modalias" Binding="{Binding Modalias}" Width="Auto"/>              
         <DataGridTemplateColumn Width="Auto" Header="Action">
             <DataGridTemplateColumn.CellTemplate>
-                <DataTemplate>
-                    <Button Content="REMOVE" Margin="10"/>
+                <DataTemplate>                   
+                    <Button Content="REMOVE" Margin="10" Command="{Binding DataContext.RemoveDeviceCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}}" CommandParameter="{Binding}" />
                 </DataTemplate>
             </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
