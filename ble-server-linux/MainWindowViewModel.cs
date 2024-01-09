@@ -59,6 +59,7 @@ public class MainWindowViewModel : BindableBase
     {
         var devices = await DeviceManager.GetDeviceListAsync(_CurrentServerContext);
         int serialNumber = 0;
+        PairedList.Clear();
         foreach (var device in devices)
         {
             serialNumber++;
@@ -89,7 +90,7 @@ public class MainWindowViewModel : BindableBase
                 Modalias = modalias
             });
         }
-        GenerateDummyDeviceList(10);
+        //GenerateDummyDeviceList(10);
     }
     private void GenerateDummyDeviceList(int count)
     {
@@ -148,6 +149,11 @@ public class MainWindowViewModel : BindableBase
         {
             await CheckPairing(device);
         }
+        else
+        {
+            await DeviceManager.RemoveDeviceAsync(_CurrentServerContext, device);
+        }
+         GetPairedList();
     }
     private async void OnDeviceConnected(IDevice1 device, PropertyChanges changes)
     {
