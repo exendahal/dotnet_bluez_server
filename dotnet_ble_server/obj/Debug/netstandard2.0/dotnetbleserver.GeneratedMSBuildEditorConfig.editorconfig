@@ -1,5 +1,3 @@
 is_global = true
 build_property.RootNamespace = dotnetbleserver
-build_property.ProjectDir = C:\Users\exend\Source\Repos\dotnet_ble_server\dotnet_ble_server\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = /home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/

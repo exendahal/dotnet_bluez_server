@@ -16,7 +16,7 @@ namespace DotnetBleServer.Device
             bluezObject.WatchInterfacesAddedAsync(action);
         }
 
-        public static async void SetOnDeviceConnectionChangeListener(ServerContext context, Action<IDevice1, PropertyChanges> handler)
+        public static async void SetOnDeviceConnectionChangeListener(ServerContext context, Action<IDevice1, PropertyChanges> handler,Action<ObjectPath,string, IDevice1,KeyValuePair<string, IDictionary<string, object>>> pairing)
         {
             var adapter = AdapterManager.CurrentAdapter;
             if (adapter == null)
@@ -30,28 +30,28 @@ namespace DotnetBleServer.Device
 
             async void OnDeviceAdded((ObjectPath objectPath, IDictionary<string, IDictionary<string, object>> interfaces) args)
             {
-                Console.WriteLine($"Object path: {args.objectPath}");
-
-                foreach (var item in args.interfaces)
-                {
-                    Console.WriteLine($"Key: {item.Key}");
-                    foreach (var value in item.Value)
-                    {
-                        Console.WriteLine($"value:{value.Value}");
-                    }
-                }
+                Console.WriteLine($"Object path: {args.objectPath}");                             
                 if (BlueZManager.IsMatch(BlueZConstants.IDEVICE_PATH, args.objectPath, args.interfaces, adapter))
                 {
                     IDevice1 device1 = context.Connection.CreateProxy<IDevice1>(BlueZConstants.BASE_PATH, args.objectPath);
+                    foreach (var item in args.interfaces)
+                    {
+                        Console.WriteLine($"Key: {item.Key}");
+                        if (item.Key == BlueZConstants.FREEDESKTOP_DBUS)
+                        {
+                            pairing(args.objectPath, item.Key, device1,item);
+                        }
+                    }                                     
                     void overriddenHandler(IDevice1 device, PropertyChanges propertyChanges)
                     {
                         foreach (var change in propertyChanges.Changed)
                         {
-                            Console.WriteLine($"{change.Key}:{change.Value}");
+                            Console.WriteLine($"{change.Key}:{change.Value}");                            
                         }
                         handler(device, propertyChanges);
                     }
                     await device1.WatchPropertiesAsync(changes => overriddenHandler(device1, changes));
+                    
                 }
             }
             SetOnDeviceAddedListener(context, OnDeviceAdded);
@@ -107,16 +107,52 @@ namespace DotnetBleServer.Device
             }
             return list;
         }
-        public static async Task<bool> PairDeviceAsync(IDevice1 device)
+        public static async Task<bool> PairDeviceAsync(ServerContext context, IDevice1 device)
         {
             var info = await device.GetAllAsync();
             if (info != null)
             {
-                if (!info.Paired)
+                try
                 {
-                    await device.PairAsync();
+                    var deviceExist = await CheckDeviceByAddress(context, info.Address);
+                    var agentManager = context.Connection.CreateProxy<IAgentManager1>(BlueZConstants.BASE_PATH, new ObjectPath(BlueZConstants.BLUEZ_OBJ));
+                    var agentPath = await FindDevicePathAsync(context, device);
+
+                    if (!string.IsNullOrWhiteSpace(agentPath))
+                    {
+                        // Unregister the agent
+                        try
+                        {
+                            await agentManager.UnregisterAgentAsync(new ObjectPath(agentPath));
+                            Console.WriteLine("Agent unregistered successfully.");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Error unregistering agent: {ex.Message}");
+                        }
+
+                        // Register the agent again
+                        try
+                        {
+                            await agentManager.RegisterAgentAsync(new ObjectPath(agentPath), "NoInputNoOutput");
+                            Console.WriteLine("Agent registered successfully.");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Error registering agent: {ex.Message}");
+                        }
+                    }
+
+                    if (!info.Paired)
+                    {
+                        await device.PairAsync();
+                    }
+                    return await device.GetPairedAsync();
                 }
-                return await device.GetPairedAsync();
+                catch (DBusException ex)
+                {
+                    Console.WriteLine($"Pairing failed: {ex.Message}");
+                }
             }
             return false;
         }

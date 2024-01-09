@@ -1,202 +1,204 @@
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Animation.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Base.dll
-C:\Users\exend\.nuget\packages\avalonia.controls.datagrid\0.10.21\lib\netstandard2.0\Avalonia.Controls.DataGrid.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Controls.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.DesignerSupport.dll
-C:\Users\exend\.nuget\packages\avalonia.desktop\0.10.21\lib\netstandard2.0\Avalonia.Desktop.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.DesktopRuntime.dll
-C:\Users\exend\.nuget\packages\avalonia.diagnostics\0.10.21\lib\netstandard2.0\Avalonia.Diagnostics.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Dialogs.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.dll
-C:\Users\exend\.nuget\packages\avalonia.freedesktop\0.10.21\lib\netstandard2.0\Avalonia.FreeDesktop.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Input.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Interactivity.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Layout.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Markup.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Markup.Xaml.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.MicroCom.dll
-C:\Users\exend\.nuget\packages\avalonia.native\0.10.21\lib\netstandard2.0\Avalonia.Native.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.OpenGL.dll
-C:\Users\exend\.nuget\packages\avalonia.remote.protocol\0.10.21\lib\netstandard2.0\Avalonia.Remote.Protocol.dll
-C:\Users\exend\.nuget\packages\avalonia.skia\0.10.21\lib\netstandard2.0\Avalonia.Skia.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Styling.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Themes.Default.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Themes.Fluent.dll
-C:\Users\exend\.nuget\packages\avalonia\0.10.21\lib\netcoreapp2.0\Avalonia.Visuals.dll
-C:\Users\exend\.nuget\packages\avalonia.win32\0.10.21\lib\netstandard2.0\Avalonia.Win32.dll
-C:\Users\exend\.nuget\packages\avalonia.x11\0.10.21\lib\netstandard2.0\Avalonia.X11.dll
-C:\Users\exend\Source\Repos\dotnet_ble_server\dotnet_ble_server\bin\Debug\netstandard2.0\dotnetbleserver.dll
-C:\Users\exend\.nuget\packages\harfbuzzsharp\2.8.2.1-preview.108\lib\net6.0\HarfBuzzSharp.dll
-C:\Users\exend\.nuget\packages\jetbrains.annotations\10.3.0\lib\netstandard1.0\JetBrains.Annotations.dll
-C:\Users\exend\.nuget\packages\microsoft.codeanalysis.csharp\3.4.0\lib\netstandard2.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\exend\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.4.0\lib\netstandard2.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\exend\.nuget\packages\microsoft.codeanalysis.common\3.4.0\lib\netstandard2.0\Microsoft.CodeAnalysis.dll
-C:\Users\exend\.nuget\packages\microsoft.codeanalysis.scripting.common\3.4.0\lib\netstandard2.0\Microsoft.CodeAnalysis.Scripting.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\Microsoft.CSharp.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\Microsoft.VisualBasic.Core.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\Microsoft.VisualBasic.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\Microsoft.Win32.Primitives.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\Microsoft.Win32.Registry.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\mscorlib.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\netstandard.dll
-C:\Users\exend\.nuget\packages\skiasharp\2.88.1-preview.108\lib\net6.0\SkiaSharp.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.AppContext.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Buffers.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Collections.Concurrent.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Collections.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Collections.Immutable.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Collections.NonGeneric.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Collections.Specialized.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.ComponentModel.Annotations.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.ComponentModel.DataAnnotations.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.ComponentModel.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.ComponentModel.EventBasedAsync.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.ComponentModel.Primitives.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.ComponentModel.TypeConverter.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Configuration.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Console.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Core.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Data.Common.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Data.DataSetExtensions.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Data.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Diagnostics.Contracts.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Diagnostics.Debug.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Diagnostics.DiagnosticSource.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Diagnostics.FileVersionInfo.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Diagnostics.Process.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Diagnostics.StackTrace.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Diagnostics.TextWriterTraceListener.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Diagnostics.Tools.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Diagnostics.TraceSource.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Diagnostics.Tracing.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.dll
-C:\Users\exend\.nuget\packages\system.drawing.common\4.5.0\ref\netstandard2.0\System.Drawing.Common.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Drawing.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Drawing.Primitives.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Dynamic.Runtime.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Formats.Asn1.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Formats.Tar.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Globalization.Calendars.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Globalization.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Globalization.Extensions.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.Compression.Brotli.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.Compression.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.Compression.FileSystem.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.Compression.ZipFile.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.FileSystem.AccessControl.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.FileSystem.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.FileSystem.DriveInfo.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.FileSystem.Primitives.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.FileSystem.Watcher.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.IsolatedStorage.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.MemoryMappedFiles.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.Pipes.AccessControl.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.Pipes.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.IO.UnmanagedMemoryStream.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Linq.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Linq.Expressions.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Linq.Parallel.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Linq.Queryable.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Memory.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.Http.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.Http.Json.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.HttpListener.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.Mail.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.NameResolution.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.NetworkInformation.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.Ping.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.Primitives.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.Quic.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.Requests.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.Security.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.ServicePoint.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.Sockets.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.WebClient.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.WebHeaderCollection.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.WebProxy.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.WebSockets.Client.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Net.WebSockets.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Numerics.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Numerics.Vectors.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.ObjectModel.dll
-C:\Users\exend\.nuget\packages\system.reactive\5.0.0\lib\net5.0\System.Reactive.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Reflection.DispatchProxy.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Reflection.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Reflection.Emit.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Reflection.Emit.ILGeneration.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Reflection.Emit.Lightweight.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Reflection.Extensions.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Reflection.Metadata.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Reflection.Primitives.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Reflection.TypeExtensions.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Resources.Reader.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Resources.ResourceManager.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Resources.Writer.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.CompilerServices.Unsafe.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.CompilerServices.VisualC.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.Extensions.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.Handles.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.InteropServices.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.InteropServices.JavaScript.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.Intrinsics.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.Loader.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.Numerics.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.Serialization.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.Serialization.Formatters.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.Serialization.Json.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.Serialization.Primitives.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Runtime.Serialization.Xml.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.AccessControl.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Claims.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Cryptography.Algorithms.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Cryptography.Cng.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Cryptography.Csp.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Cryptography.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Cryptography.Encoding.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Cryptography.OpenSsl.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Cryptography.Primitives.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Cryptography.X509Certificates.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Principal.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.Principal.Windows.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Security.SecureString.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.ServiceModel.Web.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.ServiceProcess.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Text.Encoding.CodePages.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Text.Encoding.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Text.Encoding.Extensions.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Text.Encodings.Web.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Text.Json.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Text.RegularExpressions.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Threading.Channels.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Threading.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Threading.Overlapped.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Threading.Tasks.Dataflow.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Threading.Tasks.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Threading.Tasks.Extensions.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Threading.Tasks.Parallel.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Threading.Thread.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Threading.ThreadPool.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Threading.Timer.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Transactions.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Transactions.Local.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.ValueTuple.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Web.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Web.HttpUtility.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Windows.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Xml.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Xml.Linq.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Xml.ReaderWriter.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Xml.Serialization.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Xml.XDocument.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Xml.XmlDocument.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Xml.XmlSerializer.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Xml.XPath.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\System.Xml.XPath.XDocument.dll
-C:\Users\exend\.nuget\packages\tmds.dbus\0.15.0\lib\net6.0\Tmds.DBus.dll
-C:\Users\exend\.nuget\packages\tmds.libc\0.5.0\ref\netstandard2.0\Tmds.LibC.dll
-C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.14\ref\net7.0\WindowsBase.dll
+/home/bajratech/.nuget/packages/avalonia/11.0.5/ref/net6.0/Avalonia.Base.dll
+/home/bajratech/.nuget/packages/avalonia.controls.colorpicker/11.0.5/lib/net6.0/Avalonia.Controls.ColorPicker.dll
+/home/bajratech/.nuget/packages/avalonia.controls.datagrid/11.0.5/lib/net6.0/Avalonia.Controls.DataGrid.dll
+/home/bajratech/.nuget/packages/avalonia/11.0.5/ref/net6.0/Avalonia.Controls.dll
+/home/bajratech/.nuget/packages/avalonia/11.0.5/ref/net6.0/Avalonia.DesignerSupport.dll
+/home/bajratech/.nuget/packages/avalonia.desktop/11.0.5/lib/net6.0/Avalonia.Desktop.dll
+/home/bajratech/.nuget/packages/avalonia.diagnostics/11.0.5/lib/net6.0/Avalonia.Diagnostics.dll
+/home/bajratech/.nuget/packages/avalonia/11.0.5/ref/net6.0/Avalonia.Dialogs.dll
+/home/bajratech/.nuget/packages/avalonia/11.0.5/ref/net6.0/Avalonia.dll
+/home/bajratech/.nuget/packages/avalonia.freedesktop/11.0.5/lib/net6.0/Avalonia.FreeDesktop.dll
+/home/bajratech/.nuget/packages/avalonia/11.0.5/ref/net6.0/Avalonia.Markup.dll
+/home/bajratech/.nuget/packages/avalonia/11.0.5/ref/net6.0/Avalonia.Markup.Xaml.dll
+/home/bajratech/.nuget/packages/avalonia/11.0.5/ref/net6.0/Avalonia.Metal.dll
+/home/bajratech/.nuget/packages/avalonia/11.0.5/ref/net6.0/Avalonia.MicroCom.dll
+/home/bajratech/.nuget/packages/avalonia.native/11.0.5/lib/net6.0/Avalonia.Native.dll
+/home/bajratech/.nuget/packages/avalonia/11.0.5/ref/net6.0/Avalonia.OpenGL.dll
+/home/bajratech/.nuget/packages/avalonia.remote.protocol/11.0.5/lib/net6.0/Avalonia.Remote.Protocol.dll
+/home/bajratech/.nuget/packages/avalonia.skia/11.0.5/lib/net6.0/Avalonia.Skia.dll
+/home/bajratech/.nuget/packages/avalonia.themes.fluent/11.0.5/lib/net6.0/Avalonia.Themes.Fluent.dll
+/home/bajratech/.nuget/packages/avalonia.themes.simple/11.0.5/lib/net6.0/Avalonia.Themes.Simple.dll
+/home/bajratech/.nuget/packages/avalonia.win32/11.0.5/lib/net6.0/Avalonia.Win32.dll
+/home/bajratech/.nuget/packages/avalonia.x11/11.0.5/lib/net6.0/Avalonia.X11.dll
+/home/bajratech/.nuget/packages/colortextblock.avalonia/11.0.2/lib/net6.0/ColorTextBlock.Avalonia.dll
+/home/bajratech/.nuget/packages/dialoghost.avalonia/0.7.7/lib/netstandard2.0/DialogHost.Avalonia.dll
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/bin/Debug/netstandard2.0/dotnetbleserver.dll
+/home/bajratech/.nuget/packages/harfbuzzsharp/2.8.2.3/lib/net6.0/HarfBuzzSharp.dll
+/home/bajratech/.nuget/packages/markdown.avalonia.tight/11.0.2/lib/net6.0/Markdown.Avalonia.dll
+/home/bajratech/.nuget/packages/microcom.runtime/0.11.0/lib/net5.0/MicroCom.Runtime.dll
+/home/bajratech/.nuget/packages/microsoft.codeanalysis.csharp/3.8.0/lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
+/home/bajratech/.nuget/packages/microsoft.codeanalysis.csharp.scripting/3.8.0/lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/home/bajratech/.nuget/packages/microsoft.codeanalysis.common/3.8.0/lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll
+/home/bajratech/.nuget/packages/microsoft.codeanalysis.scripting.common/3.8.0/lib/netcoreapp3.1/Microsoft.CodeAnalysis.Scripting.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/Microsoft.CSharp.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/Microsoft.VisualBasic.Core.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/Microsoft.VisualBasic.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/Microsoft.Win32.Primitives.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/Microsoft.Win32.Registry.dll
+/home/bajratech/.nuget/packages/microsoft.win32.systemevents/6.0.0/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/bajratech/.nuget/packages/messagebox.avalonia/3.1.5.1/lib/netstandard2.0/MsBox.Avalonia.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/mscorlib.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/netstandard.dll
+/home/bajratech/.nuget/packages/skiasharp/2.88.6/lib/net6.0/SkiaSharp.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.AppContext.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Buffers.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Collections.Concurrent.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Collections.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Collections.Immutable.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Collections.NonGeneric.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Collections.Specialized.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.ComponentModel.Annotations.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.ComponentModel.DataAnnotations.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.ComponentModel.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.ComponentModel.EventBasedAsync.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.ComponentModel.Primitives.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.ComponentModel.TypeConverter.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Configuration.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Console.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Core.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Data.Common.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Data.DataSetExtensions.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Data.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Diagnostics.Contracts.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Diagnostics.Debug.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Diagnostics.DiagnosticSource.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Diagnostics.FileVersionInfo.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Diagnostics.Process.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Diagnostics.StackTrace.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Diagnostics.TextWriterTraceListener.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Diagnostics.Tools.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Diagnostics.TraceSource.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Diagnostics.Tracing.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.dll
+/home/bajratech/.nuget/packages/system.drawing.common/6.0.0/lib/net6.0/System.Drawing.Common.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Drawing.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Drawing.Primitives.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Dynamic.Runtime.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Formats.Asn1.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Formats.Tar.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Globalization.Calendars.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Globalization.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Globalization.Extensions.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.Compression.Brotli.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.Compression.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.Compression.FileSystem.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.Compression.ZipFile.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.FileSystem.AccessControl.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.FileSystem.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.FileSystem.DriveInfo.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.FileSystem.Primitives.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.FileSystem.Watcher.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.IsolatedStorage.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.MemoryMappedFiles.dll
+/home/bajratech/.nuget/packages/system.io.pipelines/6.0.0/lib/net6.0/System.IO.Pipelines.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.Pipes.AccessControl.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.Pipes.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.IO.UnmanagedMemoryStream.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Linq.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Linq.Expressions.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Linq.Parallel.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Linq.Queryable.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Memory.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.Http.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.Http.Json.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.HttpListener.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.Mail.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.NameResolution.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.NetworkInformation.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.Ping.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.Primitives.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.Quic.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.Requests.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.Security.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.ServicePoint.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.Sockets.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.WebClient.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.WebHeaderCollection.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.WebProxy.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.WebSockets.Client.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Net.WebSockets.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Numerics.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Numerics.Vectors.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.ObjectModel.dll
+/home/bajratech/.nuget/packages/system.reactive/6.0.0/lib/net6.0/System.Reactive.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Reflection.DispatchProxy.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Reflection.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Reflection.Emit.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Reflection.Emit.ILGeneration.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Reflection.Emit.Lightweight.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Reflection.Extensions.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Reflection.Metadata.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Reflection.Primitives.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Reflection.TypeExtensions.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Resources.Reader.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Resources.ResourceManager.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Resources.Writer.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.CompilerServices.Unsafe.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.CompilerServices.VisualC.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.Extensions.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.Handles.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.InteropServices.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.InteropServices.JavaScript.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.InteropServices.RuntimeInformation.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.Intrinsics.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.Loader.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.Numerics.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.Serialization.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.Serialization.Formatters.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.Serialization.Json.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.Serialization.Primitives.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Runtime.Serialization.Xml.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.AccessControl.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Claims.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Cryptography.Algorithms.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Cryptography.Cng.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Cryptography.Csp.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Cryptography.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Cryptography.Encoding.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Cryptography.OpenSsl.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Cryptography.Primitives.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Cryptography.X509Certificates.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Principal.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.Principal.Windows.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Security.SecureString.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.ServiceModel.Web.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.ServiceProcess.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Text.Encoding.CodePages.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Text.Encoding.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Text.Encoding.Extensions.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Text.Encodings.Web.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Text.Json.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Text.RegularExpressions.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Threading.Channels.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Threading.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Threading.Overlapped.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Threading.Tasks.Dataflow.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Threading.Tasks.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Threading.Tasks.Extensions.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Threading.Tasks.Parallel.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Threading.Thread.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Threading.ThreadPool.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Threading.Timer.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Transactions.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Transactions.Local.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.ValueTuple.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Web.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Web.HttpUtility.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Windows.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Xml.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Xml.Linq.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Xml.ReaderWriter.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Xml.Serialization.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Xml.XDocument.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Xml.XmlDocument.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Xml.XmlSerializer.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Xml.XPath.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/System.Xml.XPath.XDocument.dll
+/home/bajratech/.nuget/packages/tmds.dbus/0.15.0/lib/net6.0/Tmds.DBus.dll
+/home/bajratech/.nuget/packages/tmds.dbus.protocol/0.15.0/lib/net6.0/Tmds.DBus.Protocol.dll
+/home/bajratech/.nuget/packages/tmds.libc/0.5.0/ref/netstandard2.0/Tmds.LibC.dll
+/usr/lib/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.14/ref/net7.0/WindowsBase.dll
