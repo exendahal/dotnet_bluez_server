@@ -9,6 +9,8 @@ using DotnetBleServer.Device;
 using Tmds.DBus;
 using MsBox.Avalonia;
 using MsBox.Avalonia.Enums;
+using Avalonia.Threading;
+using Avalonia;
 
 namespace bletest;
 
@@ -124,20 +126,29 @@ public class MainWindowViewModel : BindableBase
 
     private async void OnpairingRequestd(ObjectPath path, string interfaceName, IDevice1 device, KeyValuePair<string, IDictionary<string, object>> items)
     {
-        var paired = await device.GetPairedAsync();
-        var name = await device.GetAliasAsync();
-        Console.WriteLine($"{name}:{paired}");
+        var paired = await device.GetPairedAsync();   
         if(!paired)
         {
-            var box = MessageBoxManager
-            .GetMessageBoxStandard("Caption", "Are you sure you would like to delete appender_replace_page_1?",
-                ButtonEnum.YesNo);
+            await Dispatcher.UIThread.InvokeAsync(async () =>
+            {
+                await ConfirmPairing(device);
+            });     
 
-            var result = await box.ShowAsync();
-            
         }
     }
+    async Task ConfirmPairing(IDevice1 device)
+    {
+        var name = await device.GetAliasAsync();
+            var box = MessageBoxManager
+                    .GetMessageBoxStandard($"Pair {name}?", $"Are you sure you want to pair {name}?",
+                        ButtonEnum.YesNo);
 
+        ButtonResult result = await box.ShowAsync();
+        if (result == ButtonResult.Yes)
+        {
+            await CheckPairing(device);
+        }
+    }
     private async void OnDeviceConnected(IDevice1 device, PropertyChanges changes)
     {
         foreach (var change in changes.Changed)
