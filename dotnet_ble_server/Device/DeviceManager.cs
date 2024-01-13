@@ -16,7 +16,7 @@ namespace DotnetBleServer.Device
             bluezObject.WatchInterfacesAddedAsync(action);
         }
 
-        public static async void SetOnDeviceConnectionChangeListener(ServerContext context, Action<IDevice1, PropertyChanges> handler,Action<ObjectPath,string, IDevice1,KeyValuePair<string, IDictionary<string, object>>> pairing)
+        public static async void SetOnDeviceConnectionChangeListener(ServerContext context, Action<IDevice1, PropertyChanges> handler, Func<IDevice1, Task> pairingHandler)
         {
             var adapter = AdapterManager.CurrentAdapter;
             if (adapter == null)
@@ -34,13 +34,10 @@ namespace DotnetBleServer.Device
                 if (BlueZManager.IsMatch(BlueZConstants.IDEVICE_PATH, args.objectPath, args.interfaces, adapter))
                 {
                     IDevice1 device1 = context.Connection.CreateProxy<IDevice1>(BlueZConstants.BASE_PATH, args.objectPath);
+                    await pairingHandler(device1);
                     foreach (var item in args.interfaces)
                     {
-                        Console.WriteLine($"Key: {item.Key}");
-                        if (item.Key == BlueZConstants.FREEDESKTOP_DBUS)
-                        {
-                            pairing(args.objectPath, item.Key, device1,item);
-                        }
+                        Console.WriteLine($"Key: {item.Key}");                        
                     }                                     
                     void overriddenHandler(IDevice1 device, PropertyChanges propertyChanges)
                     {

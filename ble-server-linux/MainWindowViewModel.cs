@@ -124,8 +124,7 @@ public class MainWindowViewModel : BindableBase
             DeviceManager.SetOnDeviceConnectionChangeListener(_CurrentServerContext, OnDeviceConnected, OnpairingRequestd);
         }).Wait();
     }
-
-    private async void OnpairingRequestd(ObjectPath path, string interfaceName, IDevice1 device, KeyValuePair<string, IDictionary<string, object>> items)
+    private async Task OnpairingRequestd(IDevice1 device)
     {
         var paired = await device.GetPairedAsync();   
         if(!paired)
