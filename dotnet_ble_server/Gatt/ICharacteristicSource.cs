@@ -8,7 +8,7 @@ namespace DotnetBleServer.Gatt
     {
         public PropertiesBase<GattCharacteristic1Properties> Properties;
         public abstract Task WriteValueAsync(byte[] value, bool response);
-        public abstract Task<byte[]> ReadValueAsync();
+        public abstract Task<byte[]> ReadValueAsync(string objPath);
         public abstract Task StartNotifyAsync();
         public abstract Task StopNotifyAsync();
         public abstract Task ConfirmAsync();

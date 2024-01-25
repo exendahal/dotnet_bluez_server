@@ -13,7 +13,7 @@ public class CharacteristicSource : ICharacteristicSource
         return Task.CompletedTask;
     }
 
-    public override Task<byte[]> ReadValueAsync()
+    public override Task<byte[]> ReadValueAsync(string objectPath)
     {
         TaskCompletionSource<byte[]> tcs = new TaskCompletionSource<byte[]>();
         tcs.TrySetResult(Encoding.ASCII.GetBytes($"Read Operation"));

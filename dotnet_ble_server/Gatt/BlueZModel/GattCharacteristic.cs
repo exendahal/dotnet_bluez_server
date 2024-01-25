@@ -24,8 +24,17 @@ namespace DotnetBleServer.Gatt.BlueZModel
 
         public Task<byte[]> ReadValueAsync(IDictionary<string, object> options)
         {
-            return _CharacteristicSource.ReadValueAsync();
+            string devicePath = string.Empty;
+            foreach (var option in options)
+            {
+                if (option.Key == "device")
+                {
+                    devicePath = option.Value.ToString();
+                }
+            }
+            return _CharacteristicSource.ReadValueAsync(devicePath);
         }
+
 
         public Task WriteValueAsync(byte[] value, IDictionary<string, object> options)
         {

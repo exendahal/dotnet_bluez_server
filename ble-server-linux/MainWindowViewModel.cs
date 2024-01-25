@@ -126,15 +126,15 @@ public class MainWindowViewModel : BindableBase
     }
     private async Task OnpairingRequestd(IDevice1 device)
     {
-        var paired = await device.GetPairedAsync();   
-        if(!paired)
-        {
-            await Dispatcher.UIThread.InvokeAsync(async () =>
-            {
-                await ConfirmPairing(device);
-            });     
+        // var paired = await device.GetPairedAsync();   
+        // if(!paired)
+        // {
+        //     await Dispatcher.UIThread.InvokeAsync(async () =>
+        //     {
+        //         await ConfirmPairing(device);
+        //     });     
 
-        }
+        // }
     }
     async Task ConfirmPairing(IDevice1 device)
     {
@@ -167,6 +167,18 @@ public class MainWindowViewModel : BindableBase
                 }
                 else
                 {
+
+                }
+            }
+            else if (change.Key == "UUIDs")
+            {
+                var paired = await device.GetPairedAsync();
+                if (!paired)
+                {
+                    await Dispatcher.UIThread.InvokeAsync(async () =>
+                    {
+                        await ConfirmPairing(device);
+                    });
 
                 }
             }
