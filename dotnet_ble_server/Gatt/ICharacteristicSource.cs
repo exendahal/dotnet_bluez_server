@@ -7,7 +7,7 @@ namespace DotnetBleServer.Gatt
     public abstract class ICharacteristicSource
     {
         public PropertiesBase<GattCharacteristic1Properties> Properties;
-        public abstract Task WriteValueAsync(byte[] value, bool response);
+        public abstract Task WriteValueAsync(byte[] value, bool response,string objPath);
         public abstract Task<byte[]> ReadValueAsync(string objPath);
         public abstract Task StartNotifyAsync();
         public abstract Task StopNotifyAsync();
