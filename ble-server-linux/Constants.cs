@@ -4,8 +4,8 @@ namespace bletest;
 
 public static class BleParam
 {
-    public const string DATA_CHARACTERISTIC_UUID = "77851da4-c463-4ca1-a220-4b9124002d46";
-    public const string SERVICE_UUID = "5e8791b4-fd1b-4c52-82e9-5487b7a58e74";
+    public const string DATA_CHARACTERISTIC_UUID = "f5a1d57-79a4-4d94-9156-1c6fabc77f28";
+    public const string SERVICE_UUID = "8c4aefb3-6a8d-4fc0-9320-0d2e19e6d9bb";
     public const string DESCRIPTOR_UUID = "12345678-1234-5678-1234-56789abcdef2";
     public const string DEVICE_NAME = "My Device";
 
