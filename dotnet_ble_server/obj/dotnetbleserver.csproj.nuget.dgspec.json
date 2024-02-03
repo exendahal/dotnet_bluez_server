@@ -5,10 +5,10 @@
   },
   "projects": {
     "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj": {
-      "version": "1.0.0",
+      "version": "0.0.1",
       "restore": {
         "projectUniqueName": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj",
-        "projectName": "DotneBluezServer",
+        "projectName": "Bluez.NET.Server",
         "projectPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj",
         "packagesPath": "/home/bajratech/.nuget/packages/",
         "outputPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/",

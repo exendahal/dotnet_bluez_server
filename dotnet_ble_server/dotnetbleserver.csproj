@@ -2,9 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <ApplicationIcon />
-
-    <PackageId>Dotnet.Bluez.Server</PackageId>
+    <PackageId>Bluez.NET.Server</PackageId>
     <Version>0.0.1</Version>
     <Authors>exendahal</Authors>
     <Description>
@@ -17,9 +15,13 @@
     <PackageProjectUrl>https://github.com/exendahal/dotnet_bluez_server</PackageProjectUrl>
     <RepositoryUrl>https://github.com/exendahal/dotnet_bluez_server</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+     <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Tmds.DBus" Version="0.15.0" />
+    <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+    <None Include="images\icon.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>

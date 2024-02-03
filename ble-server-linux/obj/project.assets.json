@@ -1456,17 +1456,17 @@
           }
         }
       },
-      "DotneBluezServer/1.0.0": {
+      "Bluez.NET.Server/0.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Tmds.DBus": "0.15.0"
         },
         "compile": {
-          "bin/placeholder/DotneBluezServer.dll": {}
+          "bin/placeholder/Bluez.NET.Server.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DotneBluezServer.dll": {}
+          "bin/placeholder/Bluez.NET.Server.dll": {}
         }
       }
     }
@@ -4676,7 +4676,7 @@
         "tmds.libc.nuspec"
       ]
     },
-    "DotneBluezServer/1.0.0": {
+    "Bluez.NET.Server/0.0.1": {
       "type": "project",
       "path": "../dotnet_ble_server/dotnetbleserver.csproj",
       "msbuildProject": "../dotnet_ble_server/dotnetbleserver.csproj"
@@ -4689,7 +4689,7 @@
       "Avalonia.Desktop >= 11.0.5",
       "Avalonia.Diagnostics >= 11.0.5",
       "Avalonia.Themes.Fluent >= 11.0.5",
-      "DotneBluezServer >= 1.0.0",
+      "Bluez.NET.Server >= 0.0.1",
       "MessageBox.Avalonia >= 3.1.5.1",
       "Tmds.LibC >= 0.5.0"
     ]

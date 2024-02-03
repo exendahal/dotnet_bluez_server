@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ble-server-linux")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+555385883a64c17b049bcd3a6b18c33007c3ce9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0864cdf18905bff71c83565d29e88c588174e725")]
 [assembly: System.Reflection.AssemblyProductAttribute("ble-server-linux")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ble-server-linux")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
