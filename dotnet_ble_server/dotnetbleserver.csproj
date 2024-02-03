@@ -4,8 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <ApplicationIcon />
 
-    <PackageId>DotneBluezServer</PackageId>
-    <Version>1.0</Version>
+    <PackageId>Dotnet.Bluez.Server</PackageId>
+    <Version>0.0.1</Version>
     <Authors>exendahal</Authors>
     <Description>
      .NET BlueZ Server is a powerful library designed to facilitate the creation of Bluetooth Low Energy (BLE) peripherals and manage connected centrals on Linux using .NET Core. 
@@ -13,6 +13,7 @@
      This library builds upon .NET BLE Server, introducing specialized methods for handling connected centrals to BLE peripherals. 
     </Description>
     <Copyright>Santosh Dahal</Copyright>
+    <tags>.NET BLE Peripheral using DBUS interfaces</tags>
     <PackageProjectUrl>https://github.com/exendahal/dotnet_bluez_server</PackageProjectUrl>
     <RepositoryUrl>https://github.com/exendahal/dotnet_bluez_server</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
