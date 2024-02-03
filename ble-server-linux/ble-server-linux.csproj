@@ -16,7 +16,8 @@
     <PackageReference Include="Avalonia" Version="11.0.5" />
     <PackageReference Include="Avalonia.Desktop" Version="11.0.5" />
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.5" />    
-    <ProjectReference Include="..\dotnet_ble_server\dotnetbleserver.csproj" />   
+    <!-- <ProjectReference Include="..\dotnet_ble_server\dotnetbleserver.csproj" />    -->
+    <PackageReference Include="Bluez.NET.Server" Version="0.0.1" />
     <PackageReference Include="Tmds.LibC" Version="0.5.0" />
     <PackageReference Include="MessageBox.Avalonia" Version="3.1.5.1" />
     <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.5" />

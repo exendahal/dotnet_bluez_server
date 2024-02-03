@@ -320,6 +320,18 @@
           }
         }
       },
+      "Bluez.NET.Server/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Tmds.DBus": "0.15.0"
+        },
+        "compile": {
+          "lib/net8.0/dotnetbleserver.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/dotnetbleserver.dll": {}
+        }
+      },
       "ColorTextBlock.Avalonia/11.0.2": {
         "type": "package",
         "dependencies": {
@@ -1455,19 +1467,6 @@
             "rid": "linux-x64"
           }
         }
-      },
-      "Bluez.NET.Server/0.0.1": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Tmds.DBus": "0.15.0"
-        },
-        "compile": {
-          "bin/placeholder/Bluez.NET.Server.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Bluez.NET.Server.dll": {}
-        }
       }
     }
   },
@@ -1889,6 +1888,20 @@
         "lib/net6.0/Avalonia.X11.xml",
         "lib/netstandard2.0/Avalonia.X11.dll",
         "lib/netstandard2.0/Avalonia.X11.xml"
+      ]
+    },
+    "Bluez.NET.Server/0.0.1": {
+      "sha512": "JSXQEGD7kmiS5UbyTQ27g9Kn9hrsvXPlBqofX1yoQ430KM770t+YP1wJ4WqqwQppAcU2JQjJl0jBKVznC/Bedg==",
+      "type": "package",
+      "path": "bluez.net.server/0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "bluez.net.server.0.0.1.nupkg.sha512",
+        "bluez.net.server.nuspec",
+        "icon.png",
+        "lib/net8.0/dotnetbleserver.dll"
       ]
     },
     "ColorTextBlock.Avalonia/11.0.2": {
@@ -4675,11 +4688,6 @@
         "tmds.libc.0.5.0.nupkg.sha512",
         "tmds.libc.nuspec"
       ]
-    },
-    "Bluez.NET.Server/0.0.1": {
-      "type": "project",
-      "path": "../dotnet_ble_server/dotnetbleserver.csproj",
-      "msbuildProject": "../dotnet_ble_server/dotnetbleserver.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4718,11 +4726,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj": {
-              "projectPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -4754,6 +4758,10 @@
           "Avalonia.Themes.Fluent": {
             "target": "Package",
             "version": "[11.0.5, )"
+          },
+          "Bluez.NET.Server": {
+            "target": "Package",
+            "version": "[0.0.1, )"
           },
           "MessageBox.Avalonia": {
             "target": "Package",

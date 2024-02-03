@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c1wAnzzZkIoYcQ6RkVppBORp1Is846/xZ4cB2tIT9v/Try/epgM5nTCvVkW8AlVn3e59GqCABI+PTxB/UGL7Vw==",
+  "dgSpecHash": "f3URP8qvEFhH1BOI508fLnbYrnVxLSULY42CE2yBaNWQCV7+D5sm4EhejUu4D2TOINbPiiiXQi065+s6R5tyXQ==",
   "success": true,
   "projectFilePath": "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "/home/bajratech/.nuget/packages/avalonia.themes.simple/11.0.5/avalonia.themes.simple.11.0.5.nupkg.sha512",
     "/home/bajratech/.nuget/packages/avalonia.win32/11.0.5/avalonia.win32.11.0.5.nupkg.sha512",
     "/home/bajratech/.nuget/packages/avalonia.x11/11.0.5/avalonia.x11.11.0.5.nupkg.sha512",
+    "/home/bajratech/.nuget/packages/bluez.net.server/0.0.1/bluez.net.server.0.0.1.nupkg.sha512",
     "/home/bajratech/.nuget/packages/colortextblock.avalonia/11.0.2/colortextblock.avalonia.11.0.2.nupkg.sha512",
     "/home/bajratech/.nuget/packages/dialoghost.avalonia/0.7.7/dialoghost.avalonia.0.7.7.nupkg.sha512",
     "/home/bajratech/.nuget/packages/harfbuzzsharp/2.8.2.3/harfbuzzsharp.2.8.2.3.nupkg.sha512",

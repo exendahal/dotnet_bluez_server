@@ -121,7 +121,6 @@
 /home/bajratech/Desktop/dotnetbleserver/ble-server-linux/bin/Debug/net8.0/runtimes/linux-arm64/lib/netstandard2.0/Tmds.LibC.dll
 /home/bajratech/Desktop/dotnetbleserver/ble-server-linux/bin/Debug/net8.0/runtimes/linux-x64/lib/netstandard2.0/Tmds.LibC.dll
 /home/bajratech/Desktop/dotnetbleserver/ble-server-linux/bin/Debug/net8.0/dotnetbleserver.dll
-/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/bin/Debug/net8.0/dotnetbleserver.pdb
 /home/bajratech/Desktop/dotnetbleserver/ble-server-linux/obj/Debug/net8.0/ble-server-linux.csproj.AssemblyReference.cache
 /home/bajratech/Desktop/dotnetbleserver/ble-server-linux/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
 /home/bajratech/Desktop/dotnetbleserver/ble-server-linux/obj/Debug/net8.0/Avalonia/resources

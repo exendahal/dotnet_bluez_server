@@ -15,8 +15,7 @@
           "Avalonia.Themes.Fluent": "11.0.5",
           "Bluez.NET.Server": "0.0.1",
           "MessageBox.Avalonia": "3.1.5.1",
-          "Tmds.LibC": "0.5.0",
-          "dotnetbleserver": "0.0.1.0"
+          "Tmds.LibC": "0.5.0"
         },
         "runtime": {
           "ble-server-linux.dll": {}
@@ -248,6 +247,17 @@
           "lib/net6.0/Avalonia.X11.dll": {
             "assemblyVersion": "11.0.5.0",
             "fileVersion": "11.0.5.0"
+          }
+        }
+      },
+      "Bluez.NET.Server/0.0.1": {
+        "dependencies": {
+          "Tmds.DBus": "0.15.0"
+        },
+        "runtime": {
+          "lib/net8.0/dotnetbleserver.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
           }
         }
       },
@@ -993,22 +1003,6 @@
             "fileVersion": "0.5.0.0"
           }
         }
-      },
-      "Bluez.NET.Server/0.0.1": {
-        "dependencies": {
-          "Tmds.DBus": "0.15.0"
-        },
-        "runtime": {
-          "dotnetbleserver.dll": {}
-        }
-      },
-      "dotnetbleserver/0.0.1.0": {
-        "runtime": {
-          "dotnetbleserver.dll": {
-            "assemblyVersion": "0.0.1.0",
-            "fileVersion": "0.0.1.0"
-          }
-        }
       }
     }
   },
@@ -1122,6 +1116,13 @@
       "sha512": "sha512-FhJU/SUT2QTEhutSr8B/8w4ZZnVmmTPaHm+Y9/QiyzpS2UKz0e2lt3v8U7GKUdYpJD34ZMf6tl4zDiCnRiztgw==",
       "path": "avalonia.x11/11.0.5",
       "hashPath": "avalonia.x11.11.0.5.nupkg.sha512"
+    },
+    "Bluez.NET.Server/0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JSXQEGD7kmiS5UbyTQ27g9Kn9hrsvXPlBqofX1yoQ430KM770t+YP1wJ4WqqwQppAcU2JQjJl0jBKVznC/Bedg==",
+      "path": "bluez.net.server/0.0.1",
+      "hashPath": "bluez.net.server.0.0.1.nupkg.sha512"
     },
     "ColorTextBlock.Avalonia/11.0.2": {
       "type": "package",
@@ -1549,16 +1550,6 @@
       "sha512": "sha512-IZYKZ/016mRI2tRoh25OedrAwoWEN/20TtDh5uvN3oU1h9+UG/ulYJ1jvp+GTb2rkNIYpyHOl7bY4zHjgqypLg==",
       "path": "tmds.libc/0.5.0",
       "hashPath": "tmds.libc.0.5.0.nupkg.sha512"
-    },
-    "Bluez.NET.Server/0.0.1": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "dotnetbleserver/0.0.1.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
