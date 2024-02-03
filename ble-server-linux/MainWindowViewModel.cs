@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,14 +9,13 @@ using Tmds.DBus;
 using MsBox.Avalonia;
 using MsBox.Avalonia.Enums;
 using Avalonia.Threading;
-using Avalonia;
 
 namespace bletest;
 
 public class MainWindowViewModel : BindableBase
 {
 
-    private ObservableCollection<DeviceModel> _PairedList = new ObservableCollection<DeviceModel>();
+    private ObservableCollection<DeviceModel> _PairedList = new();
     public ObservableCollection<DeviceModel> PairedList
     {
         get { return _PairedList; }
@@ -30,6 +28,12 @@ public class MainWindowViewModel : BindableBase
     public ICommand StartCommand { get; set; }
     public ICommand StopCommand { get; set; }
     private ServerContext _CurrentServerContext { get; set; } = new ServerContext();
+
+    private enum _ChangeType
+    {
+        UUIDs,
+        Connected
+    }
 
     public MainWindowViewModel()
     {
@@ -90,27 +94,8 @@ public class MainWindowViewModel : BindableBase
                 Modalias = modalias
             });
         }
-        //GenerateDummyDeviceList(10);
     }
-    private void GenerateDummyDeviceList(int count)
-    {
-
-        for (int i = 1; i <= count; i++)
-        {
-            PairedList.Add(new DeviceModel
-            {
-                Sn = i,
-                Name = $"Device{i}",
-                Address = $"00:11:22:33:44:5{i}",
-                Alias = $"Alias{i}",
-                Paired = i % 2 == 0,
-                Trusted = i % 3 == 0,
-                UUIDs = new string[] { Guid.NewGuid().ToString(), Guid.NewGuid().ToString() },
-                Modalias = $"Modalias{i}"
-            });
-        }
-    }
-    private void StateChanged(object? sender, ConnectionStateChangedEventArgs e)
+        private void StateChanged(object? sender, ConnectionStateChangedEventArgs e)
     {
         var state = e.State;
         Console.WriteLine("Connection status: " + e.State);
@@ -121,21 +106,9 @@ public class MainWindowViewModel : BindableBase
         {
             await BleAdvertisement.RegisterAdvertisement(_CurrentServerContext);
             await BleGattApplication.RegisterGattApplication(_CurrentServerContext);
-            DeviceManager.SetOnDeviceConnectionChangeListener(_CurrentServerContext, OnDeviceConnected, OnpairingRequestd);
+            DeviceManager.SetDevicePropertyListenerAsync(_CurrentServerContext, OnDeviceConnectedAsync);
         }).Wait();
-    }
-    private async Task OnpairingRequestd(IDevice1 device)
-    {
-        // var paired = await device.GetPairedAsync();   
-        // if(!paired)
-        // {
-        //     await Dispatcher.UIThread.InvokeAsync(async () =>
-        //     {
-        //         await ConfirmPairing(device);
-        //     });     
-
-        // }
-    }
+    }    
     async Task ConfirmPairing(IDevice1 device)
     {
         var name = await device.GetAliasAsync();
@@ -154,34 +127,38 @@ public class MainWindowViewModel : BindableBase
         }
          GetPairedList();
     }
-    private async void OnDeviceConnected(IDevice1 device, PropertyChanges changes)
+    private async void OnDeviceConnectedAsync(IDevice1 device, PropertyChanges changes)
     {
         foreach (var change in changes.Changed)
         {
-            Console.WriteLine($"{change.Key}:{change.Value}");            
-            if (change.Key == "Connected")
+            Console.WriteLine($"{change.Key}:{change.Value}");
+            if (Enum.TryParse(change.Key, out _ChangeType changeType))
             {
-                if (Convert.ToBoolean(change.Value))
+                switch (changeType)
                 {
-                    await CheckPairing(device);
-                }
-                else
-                {
+                    case _ChangeType.UUIDs:
+                        var paired = await device.GetPairedAsync();
+                        if (!paired)
+                        {
+                            await Dispatcher.UIThread.InvokeAsync(async () =>
+                            {
+                                await ConfirmPairing(device);
+                            });
+                        }
+                        break;
 
-                }
-            }
-            else if (change.Key == "UUIDs")
-            {
-                var paired = await device.GetPairedAsync();
-                if (!paired)
-                {
-                    await Dispatcher.UIThread.InvokeAsync(async () =>
-                    {
-                        await ConfirmPairing(device);
-                    });
+                    case _ChangeType.Connected:
+                        if (Convert.ToBoolean(change.Value))
+                        {
+                            await CheckPairing(device);
+                        }
+                        else
+                        {
 
+                        }
+                        break;
                 }
-            }
+            }            
         }
     }
 
