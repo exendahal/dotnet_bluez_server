@@ -22,7 +22,7 @@
 /home/bajratech/.nuget/packages/avalonia.x11/11.0.5/lib/net6.0/Avalonia.X11.dll
 /home/bajratech/.nuget/packages/colortextblock.avalonia/11.0.2/lib/net6.0/ColorTextBlock.Avalonia.dll
 /home/bajratech/.nuget/packages/dialoghost.avalonia/0.7.7/lib/netstandard2.0/DialogHost.Avalonia.dll
-/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/bin/Debug/netstandard2.0/dotnetbleserver.dll
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/Debug/net7.0/ref/dotnetbleserver.dll
 /home/bajratech/.nuget/packages/harfbuzzsharp/2.8.2.3/lib/net6.0/HarfBuzzSharp.dll
 /home/bajratech/.nuget/packages/markdown.avalonia.tight/11.0.2/lib/net6.0/Markdown.Avalonia.dll
 /home/bajratech/.nuget/packages/microcom.runtime/0.11.0/lib/net5.0/MicroCom.Runtime.dll

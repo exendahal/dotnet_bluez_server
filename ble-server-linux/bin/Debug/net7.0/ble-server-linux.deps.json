@@ -13,7 +13,7 @@
           "Avalonia.Desktop": "11.0.5",
           "Avalonia.Diagnostics": "11.0.5",
           "Avalonia.Themes.Fluent": "11.0.5",
-          "DotnetBleServer": "0.1.0-snapshot",
+          "DotneBluezServer": "1.0.0",
           "MessageBox.Avalonia": "3.1.5.1",
           "Tmds.LibC": "0.5.0"
         },
@@ -993,7 +993,7 @@
           }
         }
       },
-      "DotnetBleServer/0.1.0-snapshot": {
+      "DotneBluezServer/1.0.0": {
         "dependencies": {
           "Tmds.DBus": "0.15.0"
         },
@@ -1541,7 +1541,7 @@
       "path": "tmds.libc/0.5.0",
       "hashPath": "tmds.libc.0.5.0.nupkg.sha512"
     },
-    "DotnetBleServer/0.1.0-snapshot": {
+    "DotneBluezServer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

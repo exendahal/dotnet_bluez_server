@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OSrf5vsxH4gXqf6Xi0lGW3w/aNqB7dJDIUdSViHcNYFK9H/T0O4IakM+mK9t9xGuGtn5RXBtXy4HfgGHGu+wJg==",
+  "dgSpecHash": "ADEO3rbMhVJ0A9vpqdSvIS4+gdjuVjG4EfziE/viD9/AxEePt55c9VnGh+yOT5BcKzn9y3fGmv5neAPMGDGNAA==",
   "success": true,
   "projectFilePath": "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj",
   "expectedPackageFiles": [
@@ -79,8 +79,7 @@
     "/home/bajratech/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/home/bajratech/.nuget/packages/tmds.dbus/0.15.0/tmds.dbus.0.15.0.nupkg.sha512",
     "/home/bajratech/.nuget/packages/tmds.dbus.protocol/0.15.0/tmds.dbus.protocol.0.15.0.nupkg.sha512",
-    "/home/bajratech/.nuget/packages/tmds.libc/0.5.0/tmds.libc.0.5.0.nupkg.sha512",
-    "/home/bajratech/.nuget/packages/dotnetbleserver/0.1.0-snapshot/dotnetbleserver.0.1.0-snapshot.nupkg.sha512"
+    "/home/bajratech/.nuget/packages/tmds.libc/0.5.0/tmds.libc.0.5.0.nupkg.sha512"
   ],
   "logs": []
 }

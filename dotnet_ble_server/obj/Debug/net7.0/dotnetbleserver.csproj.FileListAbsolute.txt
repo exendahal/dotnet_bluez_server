@@ -1,0 +1,12 @@
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/bin/Debug/net7.0/dotnetbleserver.deps.json
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/bin/Debug/net7.0/dotnetbleserver.dll
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/bin/Debug/net7.0/dotnetbleserver.pdb
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/Debug/net7.0/dotnetbleserver.csproj.AssemblyReference.cache
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/Debug/net7.0/dotnetbleserver.GeneratedMSBuildEditorConfig.editorconfig
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/Debug/net7.0/dotnetbleserver.AssemblyInfoInputs.cache
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/Debug/net7.0/dotnetbleserver.AssemblyInfo.cs
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/Debug/net7.0/dotnetbleserver.csproj.CoreCompileInputs.cache
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/Debug/net7.0/dotnetbleserver.dll
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/Debug/net7.0/refint/dotnetbleserver.dll
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/Debug/net7.0/dotnetbleserver.pdb
+/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/Debug/net7.0/ref/dotnetbleserver.dll

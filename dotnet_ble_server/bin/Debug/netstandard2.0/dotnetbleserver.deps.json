@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "dotnetbleserver/0.1.0-snapshot": {
+      "dotnetbleserver/1.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Tmds.DBus": "0.15.0"
@@ -95,7 +95,7 @@
     }
   },
   "libraries": {
-    "dotnetbleserver/0.1.0-snapshot": {
+    "dotnetbleserver/1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

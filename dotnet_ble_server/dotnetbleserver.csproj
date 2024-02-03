@@ -1,23 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <ApplicationIcon />
 
-    <PackageId>DotnetBleServer</PackageId>
-    <Version>0.1.0-snapshot</Version>
-    <Authors>phylomeno</Authors>
+    <PackageId>DotneBluezServer</PackageId>
+    <Version>1.0</Version>
+    <Authors>exendahal</Authors>
     <Description>
-      .NET BLE Server is a library to support creation of BLE peripherals on Linux using .NET Core.
-
-      Under the hood the library uses BlueZ. The provided API aims to preserve the object structure of BlueZ whilst minimizing the aspects of the D-Bus communication.
+     .NET BlueZ Server is a powerful library designed to facilitate the creation of Bluetooth Low Energy (BLE) peripherals and manage connected centrals on Linux using .NET Core. 
+     Leveraging the capabilities of BlueZ under the hood, this library offers a seamless API that preserves the object structure of BlueZ while streamlining D-Bus communication for a more developer-friendly experience.
+     This library builds upon .NET BLE Server, introducing specialized methods for handling connected centrals to BLE peripherals. 
     </Description>
-    <Copyright>Roman Scheidegger</Copyright>
-    <PackageProjectUrl>https://github.com/phylomeno/dotnet-gatt-server</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/phylomeno/dotnet-gatt-server</RepositoryUrl>
+    <Copyright>Santosh Dahal</Copyright>
+    <PackageProjectUrl>https://github.com/exendahal/dotnet_bluez_server</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/exendahal/dotnet_bluez_server</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Tmds.DBus" Version="0.15.0" />
   </ItemGroup>

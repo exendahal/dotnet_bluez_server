@@ -92,10 +92,10 @@
       }
     },
     "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj": {
-      "version": "0.1.0-snapshot",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj",
-        "projectName": "DotnetBleServer",
+        "projectName": "DotneBluezServer",
         "projectPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/dotnetbleserver.csproj",
         "packagesPath": "/home/bajratech/.nuget/packages/",
         "outputPath": "/home/bajratech/Desktop/dotnetbleserver/dotnet_ble_server/obj/",
@@ -104,14 +104,14 @@
           "/home/bajratech/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -122,15 +122,9 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            },
             "Tmds.DBus": {
               "target": "Package",
               "version": "[0.15.0, )"
@@ -147,6 +141,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
         }
       }
