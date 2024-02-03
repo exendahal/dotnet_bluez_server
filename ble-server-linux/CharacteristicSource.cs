@@ -15,7 +15,7 @@ public class CharacteristicSource : ICharacteristicSource
 
     public override Task<byte[]> ReadValueAsync(string objectPath)
     {
-        TaskCompletionSource<byte[]> tcs = new TaskCompletionSource<byte[]>();
+        TaskCompletionSource<byte[]> tcs = new();
         tcs.TrySetResult(Encoding.ASCII.GetBytes($"Read Operation"));
         return tcs.Task;
     }
@@ -30,7 +30,7 @@ public class CharacteristicSource : ICharacteristicSource
         return Task.CompletedTask;
     }
 
-    public override Task WriteValueAsync(byte[] value, bool response)
+    public override Task WriteValueAsync(byte[] value, bool response,string objectPath)
     {
         string dataString = Encoding.UTF8.GetString(value);
         Console.WriteLine($"Write from central: {dataString}");
