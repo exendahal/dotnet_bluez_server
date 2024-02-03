@@ -274,3 +274,4 @@ C:/Users/exend/Source/Repos/dotnet_ble_server/ble-server-linux/obj/Debug/net7.0/
 /home/bajratech/Desktop/dotnetbleserver/ble-server-linux/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
 /home/bajratech/Desktop/dotnetbleserver/ble-server-linux/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
 /home/bajratech/Desktop/dotnetbleserver/ble-server-linux/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/obj/Debug/net7.0/ble-server-linux.sourcelink.json

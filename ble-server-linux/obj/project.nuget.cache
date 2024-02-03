@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ADEO3rbMhVJ0A9vpqdSvIS4+gdjuVjG4EfziE/viD9/AxEePt55c9VnGh+yOT5BcKzn9y3fGmv5neAPMGDGNAA==",
+  "dgSpecHash": "bqHCIN7qin3rN3B6aHrTICuFoVcF6MKAawdAPFHQs0RvtqxR0NjRBNPAvJJ/sze/elajdFUZSND3AIUZMqtVPw==",
   "success": true,
   "projectFilePath": "/home/bajratech/Desktop/dotnetbleserver/ble-server-linux/ble-server-linux.csproj",
   "expectedPackageFiles": [
