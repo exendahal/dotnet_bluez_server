@@ -3,7 +3,8 @@
 .NET BlueZ Server is a powerful library designed to facilitate the creation of Bluetooth Low Energy (BLE) peripherals and efficiently manage centrals on Linux using .NET Core. Leveraging the capabilities of BlueZ under the hood, this library offers a seamless API that preserves the object structure of BlueZ while streamlining D-Bus communication for a more developer-friendly experience.
  This library builds upon [.NET BLE Server](https://github.com/phylomeno/dotnet-ble-server), introducing specialized methods for handling connected centrals to BLE peripherals.
  
-[![Bluez.NET.Server](https://img.shields.io/nuget/v/Bluez.NET.Server)](Bluez.NET.Server)
+[![Bluez.NET.Server](https://img.shields.io/nuget/v/Bluez.NET.Server)](https://www.nuget.org/packages/Bluez.NET.Server/)
+
 
 ## Key features
 - BLE Peripheral Creation
