@@ -94,3 +94,5 @@ if (!paired)
 | BlueZ GATT API documentation            | [https://git.kernel.org/pub/scm/bluetooth/bluez.git/tree/doc/gatt-api.txt](https://git.kernel.org/pub/scm/bluetooth/bluez.git/tree/doc/gatt-api.txt) |
 | Presentation BLE on Linux               | [https://elinux.org/images/3/32/Doing_Bluetooth_Low_Energy_on_Linux.pdf](https://elinux.org/images/3/32/Doing_Bluetooth_Low_Energy_on_Linux.pdf)       |
 
+## Stats
+![Alt](https://repobeats.axiom.co/api/embed/0712cf34a1555e973399b47d67d3bfb7bd77fa72.svg "Repobeats analytics image")
