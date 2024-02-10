@@ -1,6 +1,10 @@
 # Overview
 
 .NET BlueZ Server is a powerful library designed to facilitate the creation of Bluetooth Low Energy (BLE) peripherals and efficiently manage centrals on Linux using .NET Core. Leveraging the capabilities of BlueZ under the hood, this library offers a seamless API that preserves the object structure of BlueZ while streamlining D-Bus communication for a more developer-friendly experience.
+ This library builds upon [.NET BLE Server](https://github.com/phylomeno/dotnet-ble-server), introducing specialized methods for handling connected centrals to BLE peripherals.
+ 
+[![Bluez.NET.Server](https://img.shields.io/nuget/v/Bluez.NET.Server)](https://www.nuget.org/packages/Bluez.NET.Server/)
+
 
 ## Key features
 - BLE Peripheral Creation
@@ -11,8 +15,10 @@
 - Get all paired devices
 - Get central object path on Read and Write request
 
-## Example
+## Examples
 
+### Demo Example
+Find demo project under /example directory
 
 Create BLE peripheral
 
@@ -23,7 +29,7 @@ await BleGattApplication.RegisterGattApplication(_CurrentServerContext);
 DeviceManager.SetDevicePropertyListenerAsync(_CurrentServerContext, OnDeviceConnectedAsync);
 ```
 
-Listen Central property change
+Listen to Central property change
 
 ```
 private async void OnDeviceConnectedAsync(IDevice1 device, PropertyChanges changes)
@@ -60,13 +66,13 @@ Remove paired device
 await DeviceManager.RemoveDeviceAsync(_CurrentServerContext, iDevice);
 ```
 
-Get Device from Address
+Get Device from the Address
 
 ```
  var device = await DeviceManager.GetDeviceAsync(_CurrentServerContext, address);
 ```
 
-Get Device from object path
+Get Device from the object path
 
 ```
 var device = await DeviceManager.GetDeviceByObject(_CurrentServerContext, address);
