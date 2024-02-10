@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example-server-linux", "ble-server-linux\ble-server-linux.csproj", "{AE3AAA32-DFE6-4CAD-BE3D-0CFBA5C75EC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example-server-linux", "example\ble-server-linux.csproj", "{AE3AAA32-DFE6-4CAD-BE3D-0CFBA5C75EC4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetBleServer", "dotnet_ble_server\dotnetbleserver.csproj", "{0D775919-ECF4-4C71-92ED-D7D70D9BF59F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetBluezServer", "src\dotnet_bluez_server\dotnetbleserver.csproj", "{0D775919-ECF4-4C71-92ED-D7D70D9BF59F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
