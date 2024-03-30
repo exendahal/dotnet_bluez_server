@@ -1,0 +1,13 @@
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/bin/Release/net7.0/dotnetbleserver.deps.json
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/bin/Release/net7.0/dotnetbleserver.dll
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/bin/Release/net7.0/dotnetbleserver.pdb
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/obj/Release/net7.0/dotnetbleserver.csproj.AssemblyReference.cache
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/obj/Release/net7.0/dotnetbleserver.GeneratedMSBuildEditorConfig.editorconfig
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/obj/Release/net7.0/dotnetbleserver.AssemblyInfoInputs.cache
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/obj/Release/net7.0/dotnetbleserver.AssemblyInfo.cs
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/obj/Release/net7.0/dotnetbleserver.csproj.CoreCompileInputs.cache
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/obj/Release/net7.0/dotnetbleserver.sourcelink.json
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/obj/Release/net7.0/dotnetbleserver.dll
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/obj/Release/net7.0/refint/dotnetbleserver.dll
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/obj/Release/net7.0/dotnetbleserver.pdb
+/home/dell/Desktop/workspace/dotnet_bluez_server/src/dotnet_bluez_server/obj/Release/net7.0/ref/dotnetbleserver.dll
