@@ -32,8 +32,10 @@ public class MainWindowViewModel : BindableBase
     private enum _ChangeType
     {
         UUIDs,
-        Connected
+        Connected,
+        Paired
     }
+
 
     public MainWindowViewModel()
     {
@@ -95,7 +97,7 @@ public class MainWindowViewModel : BindableBase
             });
         }
     }
-        private void StateChanged(object? sender, ConnectionStateChangedEventArgs e)
+    private void StateChanged(object? sender, ConnectionStateChangedEventArgs e)
     {
         var state = e.State;
         Console.WriteLine("Connection status: " + e.State);
@@ -136,7 +138,7 @@ public class MainWindowViewModel : BindableBase
             {
                 switch (changeType)
                 {
-                    case _ChangeType.UUIDs:
+                    case _ChangeType.Paired:
                         var paired = await device.GetPairedAsync();
                         if (!paired)
                         {
